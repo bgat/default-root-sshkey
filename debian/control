@@ -1,12 +1,18 @@
 Source: default-root-sshkey
-Section: unknown
+Section: other
 Priority: extra
-Maintainer: bgat <bgat@jessievm.billgatliff.com>
+Maintainer: bgat <bgat@billgatliff.com>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.5
 
-Package: default-root-sshkey
+Package: default-root-sshkey-host
 Architecture: all
 Depends: ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Description: default root login key for ptux devices (host side)
+ This package is part of Pragmatux http://www.pragmatux.org
+
+Package: default-root-sshkey-device
+Architecture: all
+Depends: ${misc:Depends}
+Description: default root login key for ptux devices (device side)
+ This package is part of Pragmatux http://www.pragmatux.org
