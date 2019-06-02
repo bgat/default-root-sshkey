@@ -1,9 +1,9 @@
 Source: default-root-sshkey
 Section: other
-Priority: extra
+Priority: optional
 Maintainer: bgat <bgat@billgatliff.com>
-Build-Depends: debhelper (>= 9)
-Standards-Version: 3.9.5
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.3.0
 
 Package: default-root-sshkey-host
 Architecture: all
